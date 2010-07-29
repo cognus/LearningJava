@@ -1,0 +1,24 @@
+//Try to guess what each line of code does:
+int size = 27; //It declares a variable called 'size' of type int and its value is assigned to be 27
+
+String name = "Fido"; //It declares a variable called 'name' of type String and a String called "Fido"
+
+Dog myDog = new Dog(name, size); //It declares an object called Dog. The object has 2 properties: name & size
+
+x = size - 5: //This statement removes 5 to size and assigns to x
+
+if(x < 15) myDog.bark(8); //This conditional says do the bark method of myDog with 8 argument if it is under 15
+
+while(x > 3){
+	myDog.play(); //While x is under 3 do play method of object myDog
+}
+
+int[] numList = {2, 4, 6, 8}; //It creates a data type list with integer pair values from 2 to 8
+
+System.out.println("Hola"); //Prints Hola with a scape line
+
+System.out.print("Dog: " + name);  //Prints Dog plus variable name without a scape line
+
+String numero = "8"; //Prints a number 8 as a string
+
+int z = Integer.parseInt(numero); //Assigns a value of integer number to z coming from string numero 
